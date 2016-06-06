@@ -1,0 +1,40 @@
+<package>
+  <name>people_detector</name>
+  <version>0.1.0</version>
+  <description>Vision-based people detector for ROS</description>
+
+	<author email="donatodipaola@gmail.com">Donato Di Paola</author>
+	<maintainer email="donatodipaola@gmail.com">Donato Di Paola</maintainer>
+	<license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>image_geometry</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>dynamic_reconfigure</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>ecl_linear_algebra</build_depend>
+  <build_depend>orocos_kdl</build_depend>
+  <build_depend>libopenni-dev</build_depend>
+  <build_depend>libusb-1.0-dev</build_depend>
+  <build_depend>libopenni-sensor-primesense-dev</build_depend>
+
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>image_transport</run_depend>
+  <run_depend>compressed_image_transport</run_depend>
+  <run_depend>image_geometry</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>dynamic_reconfigure</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>ecl_linear_algebra</run_depend>
+  <run_depend>orocos_kdl</run_depend>
+  <run_depend>libopenni-dev</run_depend>
+  <run_depend>libusb-1.0-dev</run_depend>
+  <run_depend>libopenni-sensor-primesense-dev</run_depend>
+</package>
